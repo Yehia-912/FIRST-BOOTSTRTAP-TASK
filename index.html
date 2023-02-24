@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg flex-column sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+         <i class="fa-solid fa-bars-staggered text-white "></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item px-lg-2">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a
+              >
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" aria-current="page" href="#services">Services</a
+              >
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" aria-current="page" href="#portfolio">portfolio</a
+              >
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" aria-current="page" href="#about-us">About</a>
+            </li>
+            <li class="nav-item px-lg-2">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-magnifying-glass px-3 py-1"></i>
+          <button class="btn px-4 fs-6 rounded-pill button">Login</button>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="landing text-center pb-4 d-flex justify-content-center align-items-center flex-column"
+      id="home"
+    >
+      <h1 class="fw-light fs-1 mt-5 text-white">Taste the Creativity</h1>
+      <p class="text-white-50 mb-4">We make awesome graphic and web design</p>
+      <button class="btn px-5 py-2  rounded-pill button">Get Started</button>
+    </div>
+
+    <div class="services" id="services">
+      <div class="global-header text-center pt-5">
+        <img src="./images/title.png" class="pt-5 mb-3" alt="" />
+        <h2>We are Good at</h2>
+        <p class="fw-normal  position-relative" >SOME OF THESE STUFF UNDER</p>
+      </div>
+      <div class="container">
+        <div class="row text-center">
+          <div class="feat col-md-6 col-lg-4 position-relative">
+            <div class="icon-container">
+              <i class="fa-solid fa-1 position-relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="0.847in"
+                  height="0.833in"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    fill="rgb(0, 198, 191)"
+                    d="M51.671,10.920 L56.641,15.893 C56.938,16.187 57.087,16.577 57.089,16.978 C57.087,17.382 56.938,17.770 56.639,18.066 L56.641,18.066 L24.990,49.714 L27.076,51.801 L58.728,20.152 C59.602,19.279 60.039,18.119 60.039,16.978 C60.039,15.833 59.602,14.677 58.728,13.806 L46.693,1.774 C45.818,0.899 44.662,0.462 43.518,0.462 C42.376,0.462 41.217,0.899 40.343,1.775 L8.699,33.422 L10.786,35.509 L42.432,3.861 C42.732,3.563 43.118,3.413 43.518,3.412 C43.921,3.413 44.309,3.563 44.606,3.861 L49.582,8.833 L19.565,38.850 L21.652,40.937 L51.671,10.920 ZM6.853,41.530 C6.241,40.931 5.519,40.451 4.561,40.435 C3.814,40.415 3.039,40.849 2.644,41.420 C2.229,41.987 2.064,42.624 2.002,43.304 L0.980,55.228 L0.980,55.227 C0.964,55.350 0.960,55.482 0.960,55.613 C0.956,56.681 1.366,57.694 2.092,58.408 C2.803,59.125 3.809,59.538 4.874,59.538 L4.885,59.538 C5.001,59.538 5.116,59.533 5.235,59.524 L17.202,58.500 C17.879,58.438 18.518,58.268 19.082,57.854 C19.653,57.457 20.085,56.688 20.067,55.940 C20.052,54.981 19.576,54.257 18.973,53.649 L6.853,41.530 ZM5.010,56.583 C4.981,56.583 4.933,56.587 4.885,56.587 C4.232,56.542 3.956,56.266 3.911,55.613 C3.911,55.609 3.909,55.566 3.902,55.492 L3.918,55.492 L4.921,43.772 L16.729,55.580 L5.010,56.583 Z"
+                  /></svg
+              ></i>
+            </div>
+            <h3 class="fs-6 mt-2 mb-3">GRAPHIC DESIGN</h3>
+            <p class="px-3 lh-lg">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+          <div class="feat col-md-6 col-lg-4">
+            <div class="icon-container">
+              <i class="fa-solid fa-2 position-relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="0.986in"
+                  height="0.764in"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    fill="rgb(0, 198, 191)"
+                    d="M20.000,55.000 L52.000,55.000 L52.000,52.000 L20.000,52.000 L20.000,55.000 ZM66.000,-0.000 L5.000,-0.000 C2.115,0.001 0.004,2.110 -0.000,5.000 L-0.000,41.000 C0.004,43.890 2.115,46.994 5.000,47.000 L66.000,47.000 C68.887,46.994 70.986,43.890 71.000,41.000 L71.000,5.000 C70.986,2.108 68.887,0.006 66.000,-0.000 ZM68.030,41.231 C68.030,42.127 66.891,44.000 66.000,44.000 L5.000,44.000 C4.103,44.000 2.963,42.127 2.963,41.231 L2.963,5.092 C2.963,4.194 4.103,3.005 5.000,3.000 L66.000,3.000 C66.891,3.005 68.030,4.194 68.030,5.092 L68.030,41.231 Z"
+                  /></svg>
+              </i>
+            </div>
+            <h3 class="fs-6 mt-2 mb-3">WEB DESIGN</h3>
+            <p class="px-3 lh-lg">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+          <div class="feat col-md-12 col-lg-4 position-relative">
+            <div class="icon-container">
+              <i class="fa-solid fa-3 position-relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="0.889in"
+                  height="0.806in"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    fill="rgb(0, 198, 191)"
+                    d="M60.000,18.000 L46.000,18.000 C45.781,14.243 44.275,11.362 42.580,8.744 C40.799,5.995 38.020,4.220 35.000,4.000 L35.000,4.000 L34.000,4.000 L35.000,4.000 C34.996,4.000 34.000,4.000 34.000,4.000 L20.000,4.000 C19.639,2.040 18.063,0.004 16.000,-0.000 L12.000,-0.000 C9.679,0.004 8.006,1.679 8.000,4.000 L8.000,11.000 L2.000,11.000 C1.123,11.000 1.000,11.900 1.000,12.000 C1.000,13.159 1.229,14.000 2.000,14.000 L8.000,14.000 L8.000,26.000 L2.216,26.108 C1.445,26.108 0.814,26.739 0.814,27.510 L0.814,27.510 C0.814,28.282 1.445,28.915 2.216,28.915 L8.000,29.000 L8.000,35.000 C8.006,37.323 9.679,38.994 12.000,39.000 L16.000,39.000 C17.786,38.994 19.391,37.566 20.000,36.000 L35.000,36.000 C35.000,36.000 34.624,36.038 34.633,36.038 L34.648,36.038 L35.185,36.038 L35.185,35.996 C38.205,35.773 40.799,33.842 42.580,31.088 C44.275,28.476 45.781,24.756 46.000,21.000 L60.000,21.000 C60.762,21.000 61.000,22.240 61.000,23.000 L61.000,47.000 C61.000,47.763 60.762,47.994 60.000,48.000 L29.000,48.000 C26.677,48.004 25.004,49.678 25.000,52.000 L25.000,58.000 L28.000,58.000 L27.969,52.391 C27.973,51.629 28.611,50.992 29.374,50.992 L59.979,50.992 C62.300,50.985 63.993,49.322 64.000,47.000 L64.000,23.000 C63.991,20.678 62.321,18.002 60.000,18.000 ZM17.752,34.518 C17.752,35.279 17.112,35.918 16.351,35.919 L12.495,35.919 C11.734,35.918 11.096,35.279 11.094,34.518 L11.094,4.557 C11.096,3.796 12.239,3.004 13.000,3.000 L16.000,3.000 C16.762,3.004 17.752,3.796 17.752,4.557 L17.752,34.518 ZM21.000,33.000 L21.000,7.000 L28.000,7.000 L32.000,7.000 L32.000,7.000 L32.000,33.000 L32.000,33.000 L28.000,33.000 L21.000,33.000 ZM40.228,29.561 C38.797,31.747 36.833,32.794 35.000,33.000 L35.000,7.000 C36.833,7.206 38.797,8.087 40.228,10.274 C41.787,12.663 42.810,16.099 42.807,19.921 C42.810,23.735 41.787,27.173 40.228,29.561 Z"
+                  /></svg
+              ></i>
+            </div>
+            <h3 class="fs-6 mt-2 mb-3">APP DESIGN</h3>
+            <p class="px-3 lh-lg">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio py-5" id="portfolio">
+      <div class="global-header text-center mb-3 mt-5">
+        <img src="./images/title.png" class="mb-3" alt="" />
+        <h2>We Make This</h2>
+        <p class="fw-normal position-relative">PREPARE TO BE AMAZED</p>
+      </div>
+      <div class="container">
+        <ul class="list-unstyled my-5 d-flex justify-content-center">
+          <li class="px-2 px-md-3 py-1 active">All</li>
+          <li class="px-2 px-md-3 py-1">Design</li>
+          <li class="px-2 px-md-3 py-1">Code</li>
+          <li class="px-2 px-md-3 py-1">Photography</li>
+          <li class="px-2 px-md-3 py-1">apps</li>
+        </ul>
+      </div>
+      <div class="container mb-5">
+        <div class="row  ">
+          <div class="col-sm-6 col-md-4 col-lg-3  border-2" >
+            <div class="box overflow-hidden bg-white text-center position-relative mb-4" feat-description="Awesome">
+              <img src="./images/work-03.jpg " alt="" class="img-fluid " />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3  border-2" >
+            <div class="box overflow-hidden bg-white text-center position-relative mb-4" feat-description="Awesome">
+              <img src="./images/work-white.png" style="min-height: 151.8px" alt="" class="img-fluid " />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3  border-2" >
+            <div class="box overflow-hidden bg-white text-center position-relative mb-4" feat-description="Awesome">
+              <img src="./images/work-white.png" style="min-height: 151.8px" alt="" class="img-fluid " />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3  border-2" >
+            <div class="box overflow-hidden bg-white text-center position-relative mb-4" feat-description="Awesome">
+              <img src="./images/work-white.png" style="min-height: 151.8px" alt="" class="img-fluid " />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3  border-2" >
+            <div class="box overflow-hidden bg-white text-center position-relative mb-4" feat-description="Awesome">
+              <img src="./images/work-white.png" style="min-height: 151.8px" alt="" class="img-fluid " />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3  border-2" >
+            <div class="box overflow-hidden bg-white text-center position-relative mb-4" feat-description="Awesome">
+              <img src="./images/work-white.png" style="min-height: 151.8px" alt="" class="img-fluid " />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3  border-2" >
+            <div class="box overflow-hidden bg-white text-center position-relative mb-4" feat-description="Awesome">
+              <img src="./images/work-white.png" style="min-height: 151.8px" alt="" class="img-fluid " />
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 offset-sm-4 offset-lg-0  border-2" >
+            <div class="box overflow-hidden bg-white text-center position-relative mb-4" feat-description="Awesome">
+              <img src="./images/work-white.png" style="min-height: 151.8px" alt="" class="img-fluid " />
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="text-center">
+        <button class="btn button text-center px-5 py-2 rounded-pill">
+          I WANT MORE...
+        </button>
+      </div>
+    </div>
+    <div class="about-us" id="about-us">
+      <div class="container">
+        <div class="global-header text-center pt-5">
+          <img src="./images/title.png" class="mt-5 mb-3" alt="" />
+          <h2>We Make This</h2>
+          <p class="fw-normal position-relative">PREPARE TO BE AMAZED</p>
+          <p class="perm mx-auto mx-lg-5 px-lg-5 pb-5 position-relative ex-paragraph">
+            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+            dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+            malesuada.
+          </p>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-5 text-center text-lg-left">
+            <h3 class="fw-normal">Retina Design</h3>
+            <p class="lh-sm mt-3">
+              Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+              dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            </p>
+            <p class="lh-sm">
+              Donec rutrum congue leo eget malesuada. Mauris blandit aliquet
+              elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id
+              orci porta dapibus. Proin eget tortor risus. Donec sollicitudin
+              molestie malesuada.
+            </p>
+            <div class="mb-5">
+              <button class="btn button rounded-pill text-uppercase px-4">
+                order me one
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <img src="./images/laptop.png" class="img-fluid" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="teammates pt-5 pb-5">
+      <div class="container">
+        <div class="teanates-section-header text-center mt-5 mb-4">
+          <h2 class="fs-4 mt-5">Meet the Team</h2>
+          <p class="px-sm-5 mx-sm-5">
+            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+            dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+            malesuada.
+          </p>
+        </div>
+        <div class="row mt-5 justify-content-center gap-3">
+          <div
+            class="teammate px-0 col-md-6 col-lg-3 position-relative bg-white"
+            teammate-name="Arcane Jinx"
+          >
+            <img
+              src="./images/8378460d2d9dcef9762f818109433d58.jpg"
+              class="img-fluid"
+              alt=""
+            />
+            <blockquote class="position-absolute bottom-0 px-2 text-center">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </blockquote>
+          </div>
+          <div
+            class="teammate px-0 col-md-6 col-lg-3 position-relative bg-white"
+            teammate-name="Arcane Vi"
+          >
+            <img src="./images/missbricosplay_en_su_propia_versixn_de_vi_de_arcanex_la_serie_de_netflix.jpg_423682103.webp" class="img-fluid" alt="" />
+            <blockquote class="position-absolute bottom-0 px-2 text-center">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </blockquote>
+          </div>
+          <div
+            class="teammate px-0 col-md-6 col-lg-3 position-relative bg-white"
+            teammate-name="Arcane Ekko"
+          >
+            <img src="./images/Ekko_Arcane_4_Render.webp" class="img-fluid" alt="" />
+            <blockquote class="position-absolute bottom-0 px-2 text-center">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </blockquote>
+          </div>
+          <div
+            class="teammate px-0 col-md-6 col-lg-3 position-relative bg-white"
+            teammate-name="Arcane Vander"
+          >
+            <img src="./images/Vander_Arcane_5_Render.webp" class="img-fluid" alt="" />
+            <blockquote class="position-absolute bottom-0 px-2 text-center">
+              “I don't understand how we got by those troops. I thought we were
+              dead.“
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clients my-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2 mb-5 mb-lg-0 text-center"
+          >
+            <img src="./images/tech-1.png" alt="" />
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2 mb-5 mb-lg-0 text-center"
+          >
+            <img src="./images/tech-2.png" alt="" />
+          </div>
+          <div
+            class="col-12 col-sm-4 col-md-3 col-lg-2 mb-5 mb-lg-0 text-center"
+          >
+            <img src="./images/tech-3.png" alt="" />
+          </div>
+          <div
+            class="col-12 col-sm-4 col-md-3 col-lg-2 mb-5 mb-lg-0 text-center"
+          >
+            <img src="./images/tech-4.png" alt="" />
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2 mb-5 mb-lg-0 text-center"
+          >
+            <img src="./images/tech-1.png" alt="" />
+          </div>
+          <div
+            class="col-6 col-sm-4 col-md-3 col-lg-2 mb-5 mb-lg-0 text-center"
+          >
+            <img src="./images/tech-2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="advertise text-center py-5">
+      <div class="container">
+        <h2 class="text-white pt-5">Start Your Project Now</h2>
+        <p class="mb-5">
+          Leave your description and we start the engine.Don't worry,you can
+          cancel anytime
+        </p>
+        <button class="btn button px-5 mb-5 text-uppercase">
+          start Project
+        </button>
+      </div>
+    </div>
+    <div class="blog">
+      <div class="container">
+        <div class="global-header text-center mt-4 pb-1">
+          <img src="./images/title.png" class="mt-5 mb-3" alt="" />
+          <h2>Read Our Blog</h2>
+          <p class="position-relative p">NEW STORIES</p>
+        </div>
+        <div class="row justify-content-center  mw-100 mb-5 pt-5 mx-0">
+          <div class="card col-sm-6 col-lg-4  border-0 mb-5">
+            <div class="mb-2 blog-card-container">
+              <img src="" class="card-img-top" alt="" />
+            </div>
+            <span class="ps-1">January 17,2017</span>
+            <p class="card-text fw-semibold ps-1">
+              Some Awesome Blog Title Here
+            </p>
+          </div>
+          <div class="card col-sm-6 col-lg-4  border-0 mb-5">
+            <div class="mb-2 blog-card-container">
+              <img src="" class="card-img-top" alt="" />
+            </div>
+            <span class="ps-1">January 17,2017</span>
+            <p class="card-text fw-semibold ps-1">
+              Some Awesome Blog Title Here
+            </p>
+          </div>
+          <div class="card col-sm-6 col-lg-4  border-0 mb-5">
+            <div class="mb-2 blog-card-container">
+              <img src="" class="card-img-top" alt="" />
+            </div>
+            <span class="ps-1">January 17,2017</span>
+            <p class="card-text fw-semibold ps-1">
+              Some Awesome Blog Title Here
+            </p>
+          </div>
+        </div>
+        <div class="text-center">
+          <button class="btn button px-5 text-uppercase rounded-pill">
+            more stories
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="newsletter mt-5 py-4 px-md-5">
+      <div class="container px-lg-4">
+        <form action="" class="row align-items-center justify-content-center">
+          <h3 class="fs-6 p-0 m-0 col-md-3 col-sm-6 col-10">
+            Subscribe to our Newsletter:
+          </h3>
+          <input
+            type="email"
+            class="col-md-6 col-10 col-sm-6 mt-3 mb-5 my-sm-0 bg-transparent border-start-0 border-end-0 border-top-0 p-0 mx-md-4"
+            name=""
+            placeholder="Enter Email Address"
+            id=""
+          />
+          <input
+            type="submit"
+            class="col-md-2 col-sm-6 mt-sm-4 mt-md-0 col-7 rounded-pill btn"
+            value="Subscribe"
+          />
+        </form>
+      </div>
+    </div>
+    <footer class="py-5">
+      <div class="container">
+        <div class="row text-center text-md-start">
+          <div class="col-md-6 col-lg-4">
+            <img src="./images/logo.png" alt="" />
+            <p class="mt-4 mb-5 lh-lg px-2">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+            <p class="px-1">
+              Created by <span class="s1">Graphberry</span>,Belgrade,Serbia
+            </p>
+            <p class="px-1">&copy; 2017 - <span class="s2">Bondi.Inc</span></p>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <h5 class="text-white fw-normal fs-6 mb-3">Links</h5>
+            <ul class="list-unstyled d-flex flex-column gap-3 p ">
+              <li>Home</li>
+              <li>Our Services</li>
+              <li>Portfolio</li>
+              <li>Testimonials</li>
+              <li>Support</li>
+              <li>Terms and Conditions</li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <h5 class="text-white fw-normal fs-6 mb-3">About</h5>
+            <ul class="list-unstyled d-flex flex-column gap-3 p">
+              <li>Sign In</li>
+              <li>Contact Us</li>
+              <li>Register</li>
+              <li>About Us</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <h5 class="text-white fw-normal fs-6 mb-3">Contact us</h5>
+            <p class="pe-2">
+              Get in touch with us via mail phone.We are waiting for your call
+              or message
+            </p>
+            <button style="font-size: 13.5px !important;" class="btn button  w-75 w-md-100 rounded-pill text-white mt-4 py-2 mb-5">graphberry@gmail.com</button>
+            <ul class="list-unstyled d-flex gap-3 gap-md-2 justify-content-center justify-content-md-start ">
+              <li><a href="#"><i class="fa-brands fa-facebook-f     rounded-circle p-3 position-relative text-white fs-6"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter        rounded-circle p-3 position-relative text-white fs-6"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-google-plus-g  rounded-circle p-3 position-relative text-white fs-6"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram      rounded-circle p-3 position-relative text-white fs-6"></i></a></li>
+            </ul>
+          </div>
+      </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
